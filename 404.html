@@ -236,6 +236,14 @@ input:focus,textarea:focus,select:focus{border-bottom-color:var(--sea)}
 select{background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='12' height='8'><path d='M1 1l5 5 5-5' fill='none' stroke='%2313466B' stroke-width='1.6'/></svg>")}
 input::placeholder,textarea::placeholder{color:#848B90}
 .note{color:var(--muted)}
+.hp{position:absolute!important;left:-5000px;width:1px;height:1px;opacity:0}
+.er{font-size:13px;font-weight:500;color:#B42318}
+.er:empty{display:none}
+.fmsg{margin-top:16px;padding:13px 15px;border-radius:var(--r);font-size:15px;line-height:1.5;font-weight:500}
+.fmsg.ok{background:#E3F3E8;color:#14532D}
+.fmsg.bad{background:#FCE8E6;color:#7A1C14}
+.fmsg a{color:inherit;font-weight:700;text-decoration:underline;text-underline-offset:3px}
+.btn[disabled]{opacity:.6;pointer-events:none}
 .card{background:var(--ink);color:#fff;border-radius:var(--r);padding:clamp(22px,3vw,32px)}
 .cl{display:grid;gap:3px;padding:14px 0;border-bottom:1px solid var(--dline)}
 .cl:last-child{border-bottom:0}
