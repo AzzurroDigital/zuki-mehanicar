@@ -1,0 +1,20 @@
+{
+  "name": "zuki",
+  "compatibility_date": "2026-09-01",
+  "workers_dev": false,
+  "routes": [
+    {
+      "pattern": "zuki-mehanicar.com",
+      "custom_domain": true
+    },
+    {
+      "pattern": "www.zuki-mehanicar.com",
+      "custom_domain": true
+    }
+  ],
+  "assets": {
+    "directory": "./",
+    "not_found_handling": "404-page",
+    "html_handling": "auto-trailing-slash"
+  }
+}
