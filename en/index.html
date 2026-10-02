@@ -197,8 +197,8 @@ header.sm{border-bottom-color:var(--line)}
 .gal figure{margin:0;border-radius:var(--r);overflow:hidden;background:var(--paper2);position:relative}
 .gal img{width:100%;height:auto;aspect-ratio:4/3;object-fit:cover;transition:transform .8s var(--ease)}
 .gal figcaption{position:absolute;left:0;bottom:0;background:var(--ink);color:#fff;padding:9px 14px;font-size:12.5px;font-weight:600;letter-spacing:.1em;text-transform:uppercase}
-@media(min-width:620px){.gal{grid-template-columns:1fr 1fr}.gal figure:first-child{grid-column:1/-1}.gal figure:first-child img{aspect-ratio:16/9}}
-@media(min-width:1000px){.gal{grid-template-columns:repeat(3,1fr)}.gal figure:first-child{grid-column:auto}.gal figure:first-child img{aspect-ratio:4/3}}
+@media(min-width:620px){.gal{grid-template-columns:1fr 1fr}}
+@media(min-width:1000px){.gal{grid-template-columns:repeat(3,1fr)}}
 @media(hover:hover) and (pointer:fine){.gal figure:hover img{transform:scale(1.045)}}
 
 /* road band */
@@ -318,7 +318,7 @@ footer p,footer a{color:#BFCBD5;font-size:15px}
    <p class="enl reveal" lang="hr" style="--i:4"><a href="../" hreflang="hr">Stranica na hrvatskom</a></p>
   </div>
   <div class="heroimg" data-io>
-   <picture><source type="image/avif" srcset="../zuki-hero-640.avif 640w, ../zuki-hero-800.avif 800w, ../zuki-hero.avif 1000w" sizes="(min-width:1000px) 42vw, 100vw"><img src="../zuki-hero.webp" srcset="../zuki-hero-640.webp 640w, ../zuki-hero-800.webp 800w, ../zuki-hero.webp 1000w" sizes="(min-width:1000px) 42vw, 100vw" alt="Car repair workshop with open doors and a car inside" width="1000" height="1250" fetchpriority="high" decoding="async"></picture>
+   <picture><source type="image/avif" srcset="../zuki-hero-640.avif 640w, ../zuki-hero-800.avif 800w, ../zuki-hero.avif 1000w" sizes="(min-width:1000px) 42vw, 100vw"><img src="../zuki-hero.webp" srcset="../zuki-hero-640.webp 640w, ../zuki-hero-800.webp 800w, ../zuki-hero.webp 1000w" sizes="(min-width:1000px) 42vw, 100vw" alt="Mechanic tightening a wheel on a blue Mercedes raised on the workshop lift" width="1000" height="1250" fetchpriority="high" decoding="async"></picture>
    <div class="since"><small>Since</small><b>1996</b></div>
   </div>
  </div>
@@ -346,7 +346,7 @@ footer p,footer a{color:#BFCBD5;font-size:15px}
     </div>
    </article>
    <article class="lane reveal" style="--i:1">
-    <figure><img src="../zuki-boat.webp" srcset="../zuki-boat-640.webp 640w, ../zuki-boat-800.webp 800w, ../zuki-boat.webp 1200w" sizes="(min-width:900px) 46vw, 100vw" alt="Inflatable boat with a Yamaha 90 engine on a crane truck in the marina" width="1200" height="750" loading="lazy" decoding="async"></figure>
+    <figure><img src="../zuki-boat.webp" srcset="../zuki-boat-640.webp 640w, ../zuki-boat-800.webp 800w, ../zuki-boat.webp 1200w" sizes="(min-width:900px) 46vw, 100vw" alt="Speedboat in the slings of the truck crane on the Pirovac waterfront" width="1200" height="750" loading="lazy" decoding="async"></figure>
     <div class="in-">
      <span class="k">Boats</span>
      <h3>Engines and crane</h3>
@@ -365,11 +365,14 @@ footer p,footer a{color:#BFCBD5;font-size:15px}
 <section class="sec" id="radionica" style="padding-top:0">
  <div class="shell">
   <p class="tag reveal">From the workshop</p>
-  <h2 class="reveal split" style="margin-top:14px;max-width:14ch">From everyday cars to classics</h2>
+  <h2 class="reveal split" style="margin-top:14px;max-width:14ch">Cars, classics and boats</h2>
   <div class="gal">
    <figure class="reveal"><img src="../zuki-g2.webp" srcset="../zuki-g2-640.webp 640w, ../zuki-g2-800.webp 800w, ../zuki-g2.webp 1000w" sizes="(min-width:1000px) 31vw, (min-width:620px) 48vw, 100vw" alt="Chromed engine bay of a Ford Mustang with a 289 engine" width="1000" height="750" loading="lazy" decoding="async"><figcaption>Ford Mustang 289</figcaption></figure>
    <figure class="reveal" style="--i:1"><img src="../zuki-g1.webp" srcset="../zuki-g1-640.webp 640w, ../zuki-g1-800.webp 800w, ../zuki-g1.webp 1000w" sizes="(min-width:1000px) 31vw, (min-width:620px) 48vw, 100vw" alt="Open engine bay of a Mercedes-Benz in the workshop" width="1000" height="750" loading="lazy" decoding="async"><figcaption>Mercedes-Benz</figcaption></figure>
    <figure class="reveal" style="--i:2"><img src="../zuki-g3.webp" srcset="../zuki-g3-640.webp 640w, ../zuki-g3-800.webp 800w, ../zuki-g3.webp 1000w" sizes="(min-width:1000px) 31vw, (min-width:620px) 48vw, 100vw" alt="Audi A6 Avant on a lift under the workshop canopy" width="1000" height="750" loading="lazy" decoding="async"><figcaption>Audi A6 Avant</figcaption></figure>
+   <figure class="reveal"><img src="../zuki-g4.webp" srcset="../zuki-g4-640.webp 640w, ../zuki-g4-800.webp 800w, ../zuki-g4.webp 1000w" sizes="(min-width:1000px) 31vw, (min-width:620px) 48vw, 100vw" alt="Inflatable boat with a Yamaha 80 engine in the crane slings above the sea" width="1000" height="750" loading="lazy" decoding="async"><figcaption>Lifting a RIB</figcaption></figure>
+   <figure class="reveal" style="--i:1"><img src="../zuki-g5.webp" srcset="../zuki-g5-640.webp 640w, ../zuki-g5-800.webp 800w, ../zuki-g5.webp 1000w" sizes="(min-width:1000px) 31vw, (min-width:620px) 48vw, 100vw" alt="Inflatable boat in the crane slings above a trailer in the marina" width="1000" height="750" loading="lazy" decoding="async"><figcaption>RIB at the marina</figcaption></figure>
+   <figure class="reveal" style="--i:2"><img src="../zuki-g6.webp" srcset="../zuki-g6-640.webp 640w, ../zuki-g6-800.webp 800w, ../zuki-g6.webp 1000w" sizes="(min-width:1000px) 31vw, (min-width:620px) 48vw, 100vw" alt="Inflatable boat with a Yamaha 90 engine on the crane truck in the marina" width="1000" height="750" loading="lazy" decoding="async"><figcaption>Yamaha 90</figcaption></figure>
   </div>
  </div>
 </section>

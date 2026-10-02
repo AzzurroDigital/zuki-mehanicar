@@ -195,8 +195,8 @@ header.sm{border-bottom-color:var(--line)}
 .gal figure{margin:0;border-radius:var(--r);overflow:hidden;background:var(--paper2);position:relative}
 .gal img{width:100%;height:auto;aspect-ratio:4/3;object-fit:cover;transition:transform .8s var(--ease)}
 .gal figcaption{position:absolute;left:0;bottom:0;background:var(--ink);color:#fff;padding:9px 14px;font-size:12.5px;font-weight:600;letter-spacing:.1em;text-transform:uppercase}
-@media(min-width:620px){.gal{grid-template-columns:1fr 1fr}.gal figure:first-child{grid-column:1/-1}.gal figure:first-child img{aspect-ratio:16/9}}
-@media(min-width:1000px){.gal{grid-template-columns:repeat(3,1fr)}.gal figure:first-child{grid-column:auto}.gal figure:first-child img{aspect-ratio:4/3}}
+@media(min-width:620px){.gal{grid-template-columns:1fr 1fr}}
+@media(min-width:1000px){.gal{grid-template-columns:repeat(3,1fr)}}
 @media(hover:hover) and (pointer:fine){.gal figure:hover img{transform:scale(1.045)}}
 
 /* road band */

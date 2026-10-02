@@ -6,11 +6,15 @@
   <xhtml:link rel="alternate" hreflang="hr" href="https://zuki-mehanicar.com/"/>
   <xhtml:link rel="alternate" hreflang="en" href="https://zuki-mehanicar.com/en/"/>
   <xhtml:link rel="alternate" hreflang="x-default" href="https://zuki-mehanicar.com/"/>
+  <image:image><image:loc>https://zuki-mehanicar.com/zuki-hero.webp</image:loc></image:image>
   <image:image><image:loc>https://zuki-mehanicar.com/zuki-car.webp</image:loc></image:image>
   <image:image><image:loc>https://zuki-mehanicar.com/zuki-boat.webp</image:loc></image:image>
   <image:image><image:loc>https://zuki-mehanicar.com/zuki-g2.webp</image:loc></image:image>
   <image:image><image:loc>https://zuki-mehanicar.com/zuki-g1.webp</image:loc></image:image>
   <image:image><image:loc>https://zuki-mehanicar.com/zuki-g3.webp</image:loc></image:image>
+  <image:image><image:loc>https://zuki-mehanicar.com/zuki-g4.webp</image:loc></image:image>
+  <image:image><image:loc>https://zuki-mehanicar.com/zuki-g5.webp</image:loc></image:image>
+  <image:image><image:loc>https://zuki-mehanicar.com/zuki-g6.webp</image:loc></image:image>
  </url>
  <url>
   <loc>https://zuki-mehanicar.com/en/</loc>
