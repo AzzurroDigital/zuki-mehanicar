@@ -1,12 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:xhtml="http://www.w3.org/1999/xhtml">
  <url>
   <loc>https://zuki-mehanicar.com/</loc>
   <lastmod>2026-10-02</lastmod>
+  <xhtml:link rel="alternate" hreflang="hr" href="https://zuki-mehanicar.com/"/>
+  <xhtml:link rel="alternate" hreflang="en" href="https://zuki-mehanicar.com/en/"/>
+  <xhtml:link rel="alternate" hreflang="x-default" href="https://zuki-mehanicar.com/"/>
   <image:image><image:loc>https://zuki-mehanicar.com/zuki-car.webp</image:loc></image:image>
   <image:image><image:loc>https://zuki-mehanicar.com/zuki-boat.webp</image:loc></image:image>
   <image:image><image:loc>https://zuki-mehanicar.com/zuki-g2.webp</image:loc></image:image>
   <image:image><image:loc>https://zuki-mehanicar.com/zuki-g1.webp</image:loc></image:image>
   <image:image><image:loc>https://zuki-mehanicar.com/zuki-g3.webp</image:loc></image:image>
+ </url>
+ <url>
+  <loc>https://zuki-mehanicar.com/en/</loc>
+  <lastmod>2026-10-02</lastmod>
+  <xhtml:link rel="alternate" hreflang="hr" href="https://zuki-mehanicar.com/"/>
+  <xhtml:link rel="alternate" hreflang="en" href="https://zuki-mehanicar.com/en/"/>
+  <xhtml:link rel="alternate" hreflang="x-default" href="https://zuki-mehanicar.com/"/>
  </url>
 </urlset>
